@@ -1,18 +1,58 @@
-body {
-  padding: 20px 20px 60px;
-  max-width: 680px;
+/* styles.css */
+
+.container {
+  max-width: 800px;
   margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
 }
 
-.header {
-  color: rgb(21, 0, 82);
-  font-size: 40px;
-  font-weight: 900;
+header {
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: #3498db;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
 }
 
-.subheader {
-  color: rgb(134, 3, 3);
-  font-size: 20px;
+h1 {
+  font-size: 2.5rem;
+}
+
+#about {
+  margin: 40px 0;
+}
+
+.profile-image {
+  text-align: center;
+}
+
+#projects {
+  margin: 40px 0;
+}
+
+#projects h2 {
+  font-size: 1.5rem;
+}
+
+#contact {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icon-image {
+  background-color: #3498db;
+  border-radius: 50%;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.social-icon-image:hover {
+  background-color: #2c7da0;
 }
