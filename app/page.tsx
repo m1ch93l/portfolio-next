@@ -1,57 +1,56 @@
-import { SocialIcon } from 'react-social-icons';
-import Image from 'next/image';
+import type { NextPage } from "next";
+import styles from "./index.module.css";
 
-export default function Home() {
+const Myportfolio: NextPage = () => {
   return (
-    <div className="container">
-      <header>
-        <h1>Hello, I'm Michael Bañaria</h1>
-        <p>Your Future Innovator</p>
-      </header>
-
-      <section id="about">
-        <h2>About Me</h2>
-        <div className="profile-image">
-          <Image
-            src="/m1ch93l.jpg"
-            alt="Profile Picture"
-            width={800}
-            height={500}
-          />
-        </div>
-        <p>
-          Currently Learning React, Laravel and Vue Technology Stack
+    <div className={styles.myportfolio}>
+      <div className={styles.about}>ABOUT</div>
+      <div className={styles.michaelBBaariaContainer}>
+        <p className={styles.michaelBBaaria}>MICHAEL B. BAÑARIA</p>
+        <p className={styles.softwareDeveloper}>Software Developer</p>
+      </div>
+      <div className={styles.project}>PROJECT</div>
+      <div className={styles.contact}>CONTACT</div>
+      <div className={styles.experience}>EXPERIENCE</div>
+      <img className={styles.icons} alt="" src="/icons.svg" />
+      <img className={styles.mypictureIcon} alt="" src="/m1ch93l.jpg" />
+      <div className={styles.main} />
+      <div className={styles.phpDeveloperContainer}>
+        <p className={styles.michaelBBaaria}>
+          <span className={styles.php}>
+            <span className={styles.php1}>PHP</span>
+            <span className={styles.span}>{` `}</span>
+          </span>
+          <span>
+            <span>Developer</span>
+          </span>
         </p>
-      </section>
-
-      <section id="projects">
-        <h2>My Projects</h2>
-        <p>
-          This is my project
+        <p className={styles.ictInstructor}>
+          <span>
+            <span className={styles.span1}>{` `}</span>
+          </span>
+          <span>
+            <span className={styles.span1}>{`/ `}</span>
+            <span className={styles.ict}>ICT</span>
+            <span> Instructor</span>
+          </span>
         </p>
-      </section>
-
-      <section id="contact">
-        <h2>Contact</h2>
-        <div className="social-icons">
-          <SocialIcon
-            href="https://web.facebook.com/michael.banaria25/"
-            url="www.facebook.com"
-          />
-          <SocialIcon
-            href="https://twitter.com/michaelbbanaria"
-            url="www.twitter.com"
-          />
-          <SocialIcon
-            href="https://www.instagram.com/michael_25.97/"
-            url="www.instagram.com"
-          />
-          <SocialIcon
-            href="https://github.com/m1ch93l"
-            url="www.github.com/m1ch93l"
-          />
-        </div>
-      </section>
+      </div>
+      <div className={styles.a26YearsContainer}>
+        <span>{`A 26 years old `}</span>
+        <b>developer</b>
+        <span> since batch 2022</span>
+      </div>
+      <div className={styles.button}>
+        <img className={styles.buttonChild} alt="" src="/rectangle-5.svg" />
+        <div className={styles.setUpA}>SET UP A MEETING</div>
+        <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+      </div>
+      <div className={styles.myportfolioChild} />
+      <div className={styles.myportfolioItem} />
+      <div className={styles.myportfolioInner} />
     </div>
   );
-}
+};
+
+export default Myportfolio;
