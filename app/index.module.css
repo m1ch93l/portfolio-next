@@ -1,0 +1,191 @@
+.about {
+    position: absolute;
+    top: 132px;
+    left: 507px;
+    display: inline-block;
+    width: 130px;
+    height: 47px;
+}
+
+.michaelBBaaria {
+    margin: 0;
+}
+
+.softwareDeveloper {
+    margin: 0;
+    font-family: var(--font-red-hat-text);
+}
+
+.michaelBBaariaContainer {
+    position: absolute;
+    top: 128px;
+    left: 117px;
+    font-size: var(--font-size-5xl);
+    display: inline-block;
+    width: 326px;
+    height: 118px;
+    font-family: var(--font-righteous);
+}
+
+.contact,
+.experience,
+.project {
+    position: absolute;
+    top: 132px;
+    left: 643px;
+    display: inline-block;
+    width: 130px;
+    height: 47px;
+}
+
+.contact,
+.experience {
+    left: 804px;
+}
+
+.experience {
+    left: 957px;
+    width: 176px;
+}
+
+.icons,
+.mypictureIcon {
+    position: absolute;
+    top: 135px;
+    left: 1195px;
+    width: 176px;
+    height: 29.7px;
+}
+
+.mypictureIcon {
+    top: 478px;
+    left: 117px;
+    width: 665px;
+    height: 509px;
+    object-fit: cover;
+}
+
+.main {
+    position: absolute;
+    top: 681px;
+    left: 816px;
+    width: 641px;
+}
+
+.php1 {
+    font-size: var(--font-size-45xl);
+}
+
+.span {
+    font-size: var(--font-size-13xl);
+}
+
+.php {
+    font-family: var(--font-righteous);
+}
+
+.span1 {
+    font-family: var(--font-alegreya-sans-sc);
+}
+
+.ict {
+    font-family: var(--font-anek-latin);
+}
+
+.ictInstructor {
+    margin: 0;
+    font-size: 40px;
+    font-family: var(--font-alegreya-sans-sc);
+}
+
+.a26YearsContainer,
+.phpDeveloperContainer {
+    position: absolute;
+    top: 569px;
+    left: 816px;
+    display: inline-block;
+    width: 641px;
+    font-size: var(--font-size-45xl);
+    font-family: var(--font-rokkitt);
+}
+
+.a26YearsContainer {
+    top: 743px;
+    font-size: var(--font-size-13xl);
+    font-family: var(--font-alegreya-sans-sc);
+}
+
+.buttonChild {
+    position: absolute;
+    top: 56.3px;
+    left: 0;
+    border-radius: 15px;
+    width: 357px;
+    height: 51px;
+}
+
+.setUpA {
+    position: absolute;
+    top: 50.3px;
+    left: 56px;
+    display: inline-block;
+    width: 276px;
+    height: 45px;
+}
+
+.vectorIcon {
+    position: absolute;
+    height: 22.37%;
+    width: 5.8%;
+    top: -0.93%;
+    right: 87.84%;
+    bottom: 78.56%;
+    left: 6.36%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.button {
+    position: absolute;
+    top: 773.7px;
+    left: 816px;
+    width: 357px;
+    height: 107.3px;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family: var(--font-inknut-antiqua);
+}
+
+.myportfolioChild,
+.myportfolioInner,
+.myportfolioItem {
+    position: absolute;
+    top: 1024px;
+    left: -1px;
+    background-color: var(--color-whitesmoke);
+    width: 1441px;
+    height: 1024px;
+}
+
+.myportfolioInner,
+.myportfolioItem {
+    top: 2048px;
+    left: 0;
+}
+
+.myportfolioInner {
+    top: 3072px;
+}
+
+.myportfolio {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 4096px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-share-tech);
+}
