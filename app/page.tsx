@@ -7,7 +7,7 @@ const Myportfolio: NextPage = () => {
       <div className={styles.about}>ABOUT</div>
       <div className={styles.michaelBBaariaContainer}>
         <p className={styles.michaelBBaaria}>MICHAEL B. BAÑARIA</p>
-        <p className={styles.softwareDeveloper}>Software Developer</p>
+        <p className={styles.softwareDeveloper}>Software Developer/ICT Teacher</p>
       </div>
       <div className={styles.project}>PROJECT</div>
       <div className={styles.contact}>CONTACT</div>
