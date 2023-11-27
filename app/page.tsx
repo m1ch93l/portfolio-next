@@ -39,7 +39,7 @@ const Myportfolio: NextPage = () => {
       <div className={styles.a26YearsContainer}>
         <span>{`A 26 years old `}</span>
         <b>developer</b>
-        <span> since batch 2022</span>
+        <span> since year 2022</span>
       </div>
       <div className={styles.button}>
         <img className={styles.buttonChild} alt="" src="/rectangle-5.svg" />
