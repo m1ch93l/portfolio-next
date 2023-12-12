@@ -11,7 +11,7 @@ const Myportfolio: NextPage = () => {
       </div>
       <div className={styles.project}>PROJECT</div>
       <div className={styles.contact}>CONTACT</div>
-      <div className={styles.experience}>EXPERIENCE</div>
+      <div className={styles.experience}>EXPERIENCES</div>
       <img className={styles.icons} alt="" src="/icons.svg" />
       <img className={styles.mypictureIcon} alt="" src="/m1ch93l.jpg" />
       <div className={styles.main} />
